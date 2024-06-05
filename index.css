@@ -7,9 +7,6 @@ a{
     text-decoration: none;
     color: black;
 }
-body{
-    background-color: rgba(209, 209, 209, 0.733);
-}
 .container{
     width: 800px;
 }
