@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05.06.24</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center>
+        <h1>Example form</h1>
+        <div class="box-main">
+            <p>All: 12</p>
+            <p>Need: 7</p>
+            <p>Success: <a class="success" href="#">7</a>/7</p>
+            <p>Error: <a class="err" href="#">0</a>/7</p>
+        </div>
+    </center>
+    <form name="form" class="form">
+        <div class="box">
+            <label class="need-text" for="name">Name</label>
+            <input class="need" type="text" id="name" name="name">
+            <span class="span">Need to fill</span>
+            
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname">
+            <span>ㅤ</span>
+            
+            <label class="need-text" for="email">Email adress</label>
+            <input class="need" type="email" id="email" name="email">
+            <span class="span">Need to fill</span>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel"" id="phone" name="phone">
+            <span>ㅤ</span>
+            
+            <label for="mom">Your Mom name</label>
+            <input type="text" id="mom" name="mom">
+            <span>ㅤ</span>
+            
+            <label for="pap">Your Pap name</label>
+            <input type="text" id="pap" name="pap">
+            <span>ㅤ</span>
+        </div>
+        <div class="box">
+            <label class="need-text" for="age">Age</label>
+            <input class="need" type="number" id="age" name="age">
+            <span class="span">Need to fill</span>
+            
+            <label class="need-text" for="about">About you</label>
+            <input class="need" type="text" id="about" name="about">
+            <span class="span">Need to fill</span>
+            
+            <label class="need-text" for="js">What is JavaScript?</label>
+            <input class="need" type="text" id="js" name="js">
+            <span class="span">Need to fill</span>
+            
+            <label class="need-text" for="html">What is HTML?</label>
+            <input class="need" type="text" id="html" name="html">
+            <span class="span">Need to fill</span>
+            
+            <label class="need-text" for="css">What is CSS?</label>
+            <input class="need" type="text" id="css" name="css">
+            <span class="span">Need to fill</span>
+            
+            <label for="car">Your favourite car</label>
+            <input type="text" id="car" name="car">
+            <span>ㅤ</span>
+
+        </div>   
+        <button>Save changes</button> 
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
